@@ -25,6 +25,7 @@ const BlogPostTemplate = ({ data, location }) => {
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
+          <p>{post.frontmatter.summary}</p>
         </header>
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr />
@@ -83,6 +84,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        summary
       }
     }
     previous: mdx(id: { eq: $previousPostId }) {

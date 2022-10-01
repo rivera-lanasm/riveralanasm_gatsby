@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog for Devs with MDX`,
+    title: `rivera-lanasm`,
     author: {
-      name: `Anna Rossetti`,
-      summary: `who lives and works in England building whimsical things.`,
+      name: `Miguel Rivera-Lanas`,
+      // summary: ``,
     },
-    description: `A starter blog demonstrating what Gatsby and MDX can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `writing about intersections of technology, society, and public policy`,
+    // siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `rossettiquette`,
+      twitter: `RiveraLanas`,
     },
   },
   plugins: [
