@@ -17,6 +17,8 @@ const BlogPostTemplate = ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
+
+      {/* Article Render */}
       <article
         className="blog-post"
         itemScope
@@ -33,6 +35,8 @@ const BlogPostTemplate = ({ data, location }) => {
           <Bio />
         </footer>
       </article>
+
+      {/* Navigation To Next Post */}
       <nav className="blog-post-nav">
         <ul
           style={{
@@ -59,6 +63,7 @@ const BlogPostTemplate = ({ data, location }) => {
           </li>
         </ul>
       </nav>
+
     </Layout>
   )
 }

@@ -24,12 +24,9 @@ const Footer = () => {
         ©{author.name}, {new Date().getFullYear()}
       </div>
       <div>
-        Built with{" "}
-        <span role="img" aria-label="love">
-          💜
-        </span>{" "}
-        using <a href="https://www.gatsbyjs.com">Gatsby</a> and{" "}
+        Built using <a href="https://www.gatsbyjs.com">Gatsby</a> and{" "}
         <a href="https://mdxjs.com/">MDX</a>
+        , based on this <a href="https://github.com/annarosca/gatsby-starter-blog-dev-mdx">template</a>
         {"."}
       </div>
     </footer>
